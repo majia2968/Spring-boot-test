@@ -1,0 +1,3 @@
+org.springframework.context.ApplicationListener=ActiveProfilesChecker,HttpServerPortLogger
+org.springframework.boot.diagnostics.FailureAnalyzer=ActiveProfileMissedFailureAnalyzer
+org.springframework.boot.env.EnvironmentPostProcessor=DevEnvironmentConfigurer
