@@ -1,6 +1,6 @@
 package com.testing.springboot.service;
 
-import com.testing.springboot.domain.Book;
+import com.testing.springboot.model.Book;
 import com.testing.springboot.dao.BookDao;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
@@ -14,9 +14,6 @@ import java.util.concurrent.ConcurrentMap;
 
 import static java.util.stream.Collectors.toList;
 
-/**
- * @author Alimenkou Mikalai
- */
 @Service
 @Transactional
 public class BookServiceImpl implements BookService {

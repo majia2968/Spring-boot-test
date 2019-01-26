@@ -1,6 +1,6 @@
 package com.testing.springboot.web;
 
-import com.testing.springboot.domain.Book;
+import com.testing.springboot.model.Book;
 import com.testing.springboot.service.BookService;
 import org.junit.Before;
 import org.junit.Test;
@@ -22,9 +22,6 @@ import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-/**
- * @author Alimenkou Mikalai
- */
 @RunWith(MockitoJUnitRunner.class)
 public class BookControllerTest {
     @Mock

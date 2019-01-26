@@ -1,6 +1,6 @@
 package com.testing.springboot.service;
 
-import com.testing.springboot.domain.Book;
+import com.testing.springboot.model.Book;
 import com.testing.springboot.dao.BookDao;
 import org.junit.Before;
 import org.junit.Test;
@@ -19,9 +19,6 @@ import static org.junit.Assert.assertThat;
 import static org.mockito.Matchers.notNull;
 import static org.mockito.Mockito.*;
 
-/**
- * @author Alimenkou Mikalai
- */
 @RunWith(MockitoJUnitRunner.class)
 public class BookServiceImplTest {
     @Mock

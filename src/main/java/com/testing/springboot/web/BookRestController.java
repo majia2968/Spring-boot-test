@@ -1,6 +1,6 @@
 package com.testing.springboot.web;
 
-import com.testing.springboot.domain.Book;
+import com.testing.springboot.model.Book;
 import com.testing.springboot.service.BookService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,9 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/**
- * @author Alimenkou Mikalai
- */
 @RestController
 @AllArgsConstructor
 public class BookRestController {

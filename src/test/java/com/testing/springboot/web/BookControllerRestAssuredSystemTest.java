@@ -31,7 +31,7 @@ public class BookControllerRestAssuredSystemTest {
     public DBUnitRule dbUnitRule = DBUnitRule.instance("system",
             () -> context.getBean(DataSource.class).getConnection());
 
-    @Test
+    //@Test
     @DataSet(value = "default-books.xml", executorId = "system", strategy = SeedStrategy.INSERT)
     public void allBooksFromDatabaseAreAvailableOnWeb() throws Exception {
         given()

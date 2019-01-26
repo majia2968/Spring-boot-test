@@ -14,9 +14,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.util.Map;
 import java.util.stream.Stream;
 
-/**
- * @author Alimenkou Mikalai
- */
 @RunWith(SpringRunner.class)
 @DataJpaTest
 @ActiveProfiles("test")
